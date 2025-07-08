@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/Welkinoid52/web-app.git'
+                git branch: 'main', url: 'https://github.com/Welkinoid52/web-app.git'
             }
         }
 
